@@ -65,12 +65,12 @@ body {
   bottom: 50%;
   width: 4px;
   height: 42%;
-  background: linear-gradient(180deg, #f55, #a00);
+  background: linear-gradient(180deg, #4db8ff, #1a6fff);
   transform-origin: 50% 100%;
   transform: translateX(-50%) rotate(0deg);
   animation: sweep 6s ease-in-out infinite alternate;
   border-radius: 999px;
-  box-shadow: 0 0 18px rgba(255, 80, 80, 0.6);
+  box-shadow: 0 0 18px rgba(77, 184, 255, 0.55);
 }
 
 @keyframes sweep {
