@@ -104,16 +104,15 @@ body {
 .tickmarks {
   position: absolute;
   inset: 0;
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  align-items: flex-end;
-  padding: 0 14px 20px;
+  pointer-events: none;
 }
 
 .tickmarks span {
+  position: absolute;
+  transform: translate(-50%, -50%);
   color: #7b8cae;
   font-size: 0.75rem;
-  text-align: center;
+  white-space: nowrap;
 }
 
 .odometer-card {
