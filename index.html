@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Dashboard</title>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <main class="dashboard">
+      <section class="speedometer-card">
+        <div class="speed-label">Speed</div>
+        <div class="speedometer">
+          <div class="needle"></div>
+          <div class="speed-value" id="speedValue">0</div>
+          <div class="speed-unit">km/h</div>
+          <div class="tickmarks">
+            <span>0</span>
+            <span>20</span>
+            <span>40</span>
+            <span>60</span>
+            <span>80</span>
+            <span>100</span>
+            <span>120</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="odometer-card">
+        <div class="odometer-label">Odometer</div>
+        <div class="odometer" id="odometerValue">000000</div>
+      </section>
+    </main>
+
+    <script type="module" src="src/main.js"></script>
+  </body>
+</html>
